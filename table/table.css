@@ -7,6 +7,10 @@ table{
 	caption-side:bottom;/*top bottom*/
 	border-collapse:collapse;
 }
+caption{
+font:italic 30px 'palatino lynotype', 'book antiqua', serif;
+padding:20px 0 0 0;
+}
 td{
 	padding:10px;
 	border-top:5px solid #369;
