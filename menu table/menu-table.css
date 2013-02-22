@@ -2,20 +2,25 @@
 menu
 */
 #menu {
-width:800px;
-height:200px;
-margin:auto;
-background:#f0f0f0;
+	width:800px;
+	height:200px;
+	margin:auto;
+	background:#f0f0f0;
 }
 #menu ul{
-	list-style:none;
-	margin:auto;
-	padding:0;
 	display:table;
+	width:100%;
+	table-layout:fixed;
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
 }
 #menu li{
-	display:table-cell;
 	position:relative;
+	display:table-cell;
+	
 }
 #menu li a{
 	display:inline-block;
@@ -27,9 +32,10 @@ background:#f0f0f0;
 	color:#fff;
 	text-transform: uppercase;
 	text-decoration:none;
+	width:100%;text-align:center;
 }
 #menu li a:hover{
-	background: #369;
+	background:#369;
 }
 #menu li ul{
 	display:none;
@@ -45,8 +51,8 @@ background:#f0f0f0;
 #menu li li a{
 	display:block;
 	background: #f60;
-	white-space:nowrap;/*pre;pre*//*nowrap;*//*отношение к пробельным символам по умолчанию normal*/
+	/*white-space:nowrap;/*pre;pre*//*nowrap;*//*РѕС‚РЅРѕС€РµРЅРёРµ Рє РїСЂРѕР±РµР»СЊРЅС‹Рј СЃРёРјРІРѕР»Р°Рј РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ normal*/
 }	
 #menu li li a:hover{
-	background: #d30;
+	background:#d30;
 }
